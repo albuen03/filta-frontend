@@ -3,17 +3,24 @@
   margin: 0 auto;
 }
 
-.section-wrapper {
+.section-1-wrapper {
   display: flex;
   flex-direction: row;
-  gap: 15px
+  gap: 15px;
+  margin: 150px 0px 150px 0px;
+}
+
+.section-2-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 150px;
 }
 
 .section-item {
   display: flex;
   max-width: 400px;
 }
-.section-1-large-image {
+.large-image {
   min-height: 450px;
 }
 
@@ -22,8 +29,7 @@
   height: 100%;
 }
 
-.section-1-small-image {
-  min-height: 240px;
-  max-height: 290px;
+.small-image {
+  height: 280px;
   width: 100%;
 }
