@@ -1,5 +1,5 @@
 #root {
-  padding: 150px;
+  padding: 185px 112px;
   text-align: center;
   margin: 0 auto;
 }
@@ -7,8 +7,8 @@
 .section-1-wrapper {
   display: flex;
   flex-direction: row;
-  gap: 15px;
-  margin-bottom: 150px;
+  gap: 25px;
+  margin-bottom: 210px;
   text-align: left;
 }
 
@@ -21,12 +21,12 @@
 .section-2-content {
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 25px;
 }
 
 .section-item {
   display: flex;
-  max-width: 400px;
+  max-width: 385px;
 }
 .large-image {
   min-height: 450px;
@@ -38,7 +38,14 @@
 }
 
 .small-image {
-  height: 280px;
+  height: 290px;
+  width: 100%;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   width: 100%;
 }
 
