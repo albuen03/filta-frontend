@@ -29,12 +29,12 @@ const Section2 = () => {
   ];
   return (
     <section className="section-2-wrapper">
-      <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', width: '100%', marginBottom: '40px'}}>
-        <span style={{margin: 0, fontFamily: 'Open Sans', fontWeight: '300', textTransform: 'uppercase', fontSize: '45px'}}>
+      <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', width: '100%', marginBottom: '35px'}}>
+        <span style={{fontFamily: 'Open Sans', fontWeight: '300', textTransform: 'uppercase', fontSize: '45px', textAlign: 'center'}}>
           all the latest from AEG
         </span>
       </div>
-      <div style={{display: 'flex', flexDirection: 'row', gap: '15px'}}>
+      <div className="section-2-content">
         {data.map(item => (
           <div className="section-item" style={{flexDirection: 'column'}}>
             <div style={{ marginTop: '20px', width: '100%'}}>
